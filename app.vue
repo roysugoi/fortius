@@ -2,13 +2,13 @@
 import { CircleCheckBig } from 'lucide-vue-next';
 import { ToggleSwitch } from 'primevue';
 import { ref } from 'vue';
-import "tailwindcss";
 
 const checked = ref(true);
 </script>
 
 <template>
   <head>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
     <div class="p-6 flex">
