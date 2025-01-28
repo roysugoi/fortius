@@ -8,8 +8,6 @@ const checked = ref(true);
 
 <template>
   <head>
-    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script> -->
   </head>
   <body>
     <div class="p-6 flex">

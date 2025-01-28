@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 import tailwindcss from "@tailwindcss/vite";
-import { Activity } from 'lucide-vue-next';
 import primevue from "@primevue/nuxt-module"
 import Aura from '@primevue/themes/aura';
 
@@ -18,7 +17,7 @@ primevue: {
 },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  css: ['./css/main.css'], 
+  css: ['/css/main.css'], 
   vite: {
     plugins: [
       tailwindcss(),
