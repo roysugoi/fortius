@@ -2,6 +2,7 @@
 import { CircleCheckBig } from 'lucide-vue-next';
 import { ToggleSwitch } from 'primevue';
 import { ref } from 'vue';
+import "tailwindcss";
 
 const checked = ref(true);
 </script>
